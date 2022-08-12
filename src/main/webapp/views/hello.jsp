@@ -4,11 +4,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Hello</title>
+<title>Welcome Page</title>
 </head>
 <body>
 
-<p>Hello world</p>
+<form action="display-name" method="post">
+
+
+<input type="text" name="name" placeholder="your name" />
+<input type="submit" value="submit"/>
+
+</form>
 
 </body>
 </html>
